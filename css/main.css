@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5rem;
-  font-family: Merriweather, serif;
+  font-family: serif;
 }
 
 *, *::before, *::after {
@@ -10,17 +10,17 @@ html {
 
 body {
   background-color: #d05c2e;
+  margin: 0;
 }
 
 img {
   width: 40px;
 }
 
-.header {
+.title {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
   margin: 0;
 }
 
@@ -40,6 +40,8 @@ nav {
 }
 
 ul {
+  display: flex;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -53,16 +55,19 @@ a {
   font-size: 1.125rem;
   text-decoration: none;
   list-style-type: none;
+  border-style: solid;
+  border-color: #a63f38;
   color: #fff;
+  padding: .4rem 0;
 }
 
 li {
-  font-size: 1.125rem;
   color: #fff;
-  border-style: solid;
-  border-color: #a63f38;
+  text-decoration: none;
+  list-style-type: none;
   padding: .4rem 0;
-  display: inline;
+  width: 33.333%;
+
 }
 
 a:hover {
@@ -70,4 +75,5 @@ a:hover {
   text-decoration: none;
   list-style-type: none;
   color: #fff;
+  background-color: #a63f38;
 }
