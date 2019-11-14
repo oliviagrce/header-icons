@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  background-color: #d05c2e;
   margin: 0;
 }
 
@@ -23,6 +22,7 @@ img {
   align-items: center;
   margin: 0;
   padding-top: 1em;
+  background-color: #d05c2e;
 }
 
 h1 {
@@ -46,7 +46,8 @@ ul {
 }
 
 .div-nav {
-  padding: 1em 0;
+  padding: 0;
+  background-color: #d05c2e;
 }
 
 a {
